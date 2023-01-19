@@ -1,65 +1,66 @@
 #pragma once
-#include <iostream>
 #include <vector>
-#include <string>
 #include <algorithm>
+#include <stdlib.h> // нужен для вызова функций rand(), srand()
+#include <time.h>
+#include <fstream>
 
+using namespace std;
 class kingsburg
 {
-public:
-public:
-	struct Player {
-		int ID;
-		std::string name = " ";
+	struct Player
+	{
+		const char* name;
 		int gold = 0;
 		int wood = 0;
 		int stone = 0;
-		int money = 0; //жетоны
-		int cube1 = 0;
-		int cube2 = 0;
-		int cube3 = 0;
-		int add_cube = 0; // доп белый кубик
-		int advisor = 0; // наличение советника
-		int military_register = 0; // значение воинского реестра
-		int po = 0; // кол-во победных очков
-		std::vector<int> build = {};// вектор построек
-		int count_building;
-		bool poslannik = 0;
-		Player() {
-			this->name;
-			this->gold;
-			this->wood;
-			this->stone;
-			this->money;
-			this->cube1;
-			this->cube2;
-			this->cube3;
-			this->add_cube;
-			this->advisor;
-			this->military_register;
-			this->po;
-			this->build;
-		}
-		Player(std::string name) {
-			this->name = name;
-		}
+		int tokens = 0;
+		int order = 0;
+		int cube_1 = 0;
+		int cube_2 = 0;
+		int cube_3 = 0;
+		int add_cube = 0;
+		bool advisor;
+		int military_register;
+		int victory_score;
+		int buildings;
+		std::vector <bool> building;
+
+
+
 	};
+
+	int players;
 	int player_number;
-	std::string advisors[17] = { "Шут", "Сквайр", "Зодчий", "Купец", "Сержант", "Алхимик", "Звездочет", "Казначей", "Охотница", "Генерал", "Оружейник", "Герцогиня", };
-	std::vector<Player> vec; // вектор игроков
-	int count_players;
 	int year;
+	const char* enemy;
 	int phase;
-	const char* enemy_name;
-	kingsburg(); // конструктор по умолчанию
-	~kingsburg(); // деструктор
-	kingsburg(int count_players); // конструктор инициализирующий	
-	kingsburg(const Game_Nurov& temp); // копирующий конструктор
+
+	vector<char> advisor;
+	vector<char> whos_advinsor;
+	vector<Player> pl; // век игроков
+
+	kingsburg();
+	kingsburg(int count_players);
+	kingsburg(const kingsburg& temp);
+	~kingsburg();
+
 	void phase1();
 	void phase3();
 	void phase5();
 	void phase7();
 	void phase8();
+
 	void defense_level(const char* enemy_name, int king_help);
+
+	void phase246();
+	void phase246_bonus();
+
+	void phase246_advisor();
+	void advisor_help();
+
+	bool save_game(const char* filename);
+
 };
+
 
