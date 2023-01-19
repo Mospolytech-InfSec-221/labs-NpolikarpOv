@@ -1,33 +1,200 @@
-﻿  Game_polikarpov.cpp
+﻿  221-352Polikarpov.cpp
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\221-352Polikarpov.cpp(6,22): error C2248: kingsburg::kingsburg: невозможно обратиться к private член, объявленному в классе "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(44,2): message : см. объявление "kingsburg::kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\221-352Polikarpov.cpp(6,22): error C2248: kingsburg::~kingsburg: невозможно обратиться к private член, объявленному в классе "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(46,3): message : см. объявление "kingsburg::~kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\221-352Polikarpov.cpp(7,18): error C2248: kingsburg::phase1: невозможно обратиться к private член, объявленному в классе "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(48,7): message : см. объявление "kingsburg::phase1"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\221-352Polikarpov.cpp(8,18): error C2248: kingsburg::phase3: невозможно обратиться к private член, объявленному в классе "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(49,7): message : см. объявление "kingsburg::phase3"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\221-352Polikarpov.cpp(9,18): error C2248: kingsburg::phase5: невозможно обратиться к private член, объявленному в классе "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(50,7): message : см. объявление "kingsburg::phase5"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\221-352Polikarpov.cpp(10,18): error C2248: kingsburg::phase7: невозможно обратиться к private член, объявленному в классе "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(51,7): message : см. объявление "kingsburg::phase7"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+  Game_polikarpov.cpp
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(6,12): error C2039: "Game_polikarpov": не является членом "kingsburg".
-C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(7,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(7,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(8,7): error C2039: "cout": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(8,12): error C2065: cout: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(9,7): error C2039: "cin": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(9,11): error C2065: cin: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(9,14): error C2065: player_number: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(10,22): error C2065: player_number: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(12,3): error C2065: Player: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(12,10): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "gamer"
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(12,10): error C2065: gamer: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(14,8): error C2039: "cin": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(14,12): error C2065: cin: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(15,3): error C2065: gamer: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(16,3): error C2065: vec: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(16,17): error C2065: gamer: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(18,1): warning C4508: Game_polikarpov: функция должна возвращать значение; предполагается возвращаемый тип "void"
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(20,12): error C2039: "Game_polikarpov": не является членом "kingsburg".
-C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(7,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(21,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(20,27): error C2084: функция "int Game_polikarpov(void)" уже имеет текст реализации
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(6,27): message : см. предыдущее определение "Game_polikarpov"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(22,7): error C2039: "cout": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(22,12): error C2065: cout: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(25,12): error C2039: "Game_polikarpov": не является членом "kingsburg".
-C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(7,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(26,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(28,2): error C2065: player_number: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(29,22): error C2065: player_number: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(30,8): error C2039: "cout": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(30,13): error C2065: cout: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(31,3): error C2065: Player: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(31,10): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "gamer"
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(31,10): error C2065: gamer: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(33,8): error C2039: "cin": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(33,12): error C2065: cin: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(34,3): error C2065: gamer: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(35,3): error C2065: vec: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(35,17): error C2065: gamer: необъявленный идентификатор
 C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(37,1): warning C4508: Game_polikarpov: функция должна возвращать значение; предполагается возвращаемый тип "void"
-C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(141,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(149,17): error C2039: "phase246_bonus": не является членом "kingsburg".
-C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(7,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(43,8): error C2039: "cout": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(43,13): error C2065: cout: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(44,8): error C2039: "cin": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(44,12): error C2065: cin: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(47,10): error C2039: "cout": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(47,15): error C2065: cout: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(47,31): error C2065: vec: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(48,10): error C2039: "cin": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream(26,1): message : см. объявление "std"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(48,14): error C2065: cin: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(50,6): error C2065: vec: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(53,6): error C2065: vec: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(56,6): error C2065: vec: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(62,19): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(62,38): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(63,14): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(63,39): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(64,18): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(64,42): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(69,4): error C3487: "bool": все возвращаемые выражения в лямбда-выражении должны иметь один и тот же тип: ранее использовался тип "void"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(67,5): error C2562: kingsburg::phase1::<lambda_1>::operator (): функция типа "void", возвращающая значение
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(62,81): message : см. объявление "kingsburg::phase1::<lambda_1>::operator ()"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(67,5): error C2562: kingsburg::phase1::<lambda_1>::<lambda_invoker_cdecl>: функция типа "void", возвращающая значение
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(69,4): message : см. объявление "kingsburg::phase1::<lambda_1>::<lambda_invoker_cdecl>"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(67,5): error C2562: kingsburg::phase1::<lambda_1>::<lambda_invoker_vectorcall>: функция типа "void", возвращающая значение
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(69,4): message : см. объявление "kingsburg::phase1::<lambda_1>::<lambda_invoker_vectorcall>"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(62,8): error C2672: "std::sort": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(7673,19): message : может быть "void std::sort(const _RanIt,const _RanIt)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(7665,19): message : или       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(62,8): message : "void std::sort(const _RanIt,const _RanIt,_Pr)": ожидаются аргументы 3 — 2 предоставлены
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(70,41): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(71,29): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(72,15): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(72,35): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(72,56): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(72,79): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(72,103): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(72,128): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(73,29): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(77,31): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(79,30): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(80,5): error C2065: vec: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(81,5): error C2065: vec: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(82,5): error C2065: vec: необъявленный идентификатор
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(92,18): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(92,37): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(92,94): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(92,118): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(92,7): error C2672: "std::sort": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(7673,19): message : может быть "void std::sort(const _RanIt,const _RanIt)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(7665,19): message : или       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(92,7): message : "void std::sort(const _RanIt,const _RanIt,_Pr)": ожидаются аргументы 3 — 2 предоставлены
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(93,40): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(94,28): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(95,13): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(95,44): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(96,28): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(100,29): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(101,33): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(102,11): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(110,18): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(110,37): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(111,13): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(111,38): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(112,17): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(112,41): error C2039: "count_building": не является членом "kingsburg::Player".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(11,9): message : см. объявление "kingsburg::Player"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(117,3): error C3487: "bool": все возвращаемые выражения в лямбда-выражении должны иметь один и тот же тип: ранее использовался тип "void"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(115,4): error C2562: kingsburg::phase5::<lambda_1>::operator (): функция типа "void", возвращающая значение
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(110,80): message : см. объявление "kingsburg::phase5::<lambda_1>::operator ()"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(115,4): error C2562: kingsburg::phase5::<lambda_1>::<lambda_invoker_cdecl>: функция типа "void", возвращающая значение
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(117,3): message : см. объявление "kingsburg::phase5::<lambda_1>::<lambda_invoker_cdecl>"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(115,4): error C2562: kingsburg::phase5::<lambda_1>::<lambda_invoker_vectorcall>: функция типа "void", возвращающая значение
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(117,3): message : см. объявление "kingsburg::phase5::<lambda_1>::<lambda_invoker_vectorcall>"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(110,7): error C2672: "std::sort": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(7673,19): message : может быть "void std::sort(const _RanIt,const _RanIt)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(7665,19): message : или       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(110,7): message : "void std::sort(const _RanIt,const _RanIt,_Pr)": ожидаются аргументы 3 — 2 предоставлены
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(118,40): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(119,28): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(120,14): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(120,34): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(120,55): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(120,78): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(120,102): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(120,127): error C2039: "vec": не является членом "kingsburg".
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\kingsburg.h(9,7): message : см. объявление "kingsburg"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\221-352Polikarpov\Game_polikarpov.cpp(120,6): fatal  error C1003: число ошибок превышает 100; остановка компиляции
+  Создание кода...

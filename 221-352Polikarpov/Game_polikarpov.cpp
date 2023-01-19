@@ -148,25 +148,25 @@ int toss_cube(int nil, int max) {
 
 void kingsburg::phase246_bonus()
 {
-	for (int i = 0; i < pl.size(); i++) {
-		pl[i].cube_1 = toss_cube(1, 6);
-		pl[i].cube_2 = toss_cube(1, 6);
-		pl[i].cube_3 = toss_cube(1, 6);
-		if (pl[i].cube_1 == pl[i].cube_1 == pl[i].cube_1) {
+	for (int i = 0; i < vec.size(); i++) {
+		vec[i].cube_1 = toss_cube(1, 6);
+		vec[i].cube_2 = toss_cube(1, 6);
+		vec[i].cube_3 = toss_cube(1, 6);
+		if (pl[i].cube_1 == vec[i].cube_1 == vec[i].cube_1) {
 			i--;
 		}
 	}
-	for (int i = 0; i < pl.size() - 1; i++) {
-		for (int j = 0; j < pl.size() - 2; j++) {
-			if (pl[j].cube_1 + pl[j].cube_2 + pl[j].cube_3 > pl[j + 1].cube_1 + pl[j + 1].cube_2 + pl[j + 1].cube_3) {
-				Player change = pl[j];
-				pl[j] = pl[j + 1];
-				pl[j + 1] = change;
+	for (int i = 0; i < vec.size() - 1; i++) {
+		for (int j = 0; j < vec.size() - 2; j++) {
+			if (vec[j].cube_1 + vec[j].cube_2 + vec[j].cube_3 > vec[j + 1].cube_1 + vec[j + 1].cube_2 + vec[j + 1].cube_3) {
+				Player change = vec[j];
+				vec[j] = vec[j + 1];
+				vec[j + 1] = change;
 			}
 		}
 	}
-	for (int i = 0; i < pl.size(); i++) {
-		pl[i].order = i + 1;
+	for (int i = 0; i < vec.size(); i++) {
+		vec[i].order = i + 1;
 	}
 }
 
@@ -182,102 +182,102 @@ void kingsburg::phase246_advisor()
 void kingsburg::advisor_help()
 {
 	for (int i = 0; i < player_number; i++) {
-		if (pl[i].advisor == 1) {
-			pl[i].victory_score += 1;
+		if (vec[i].advisor == 1) {
+			vec[i].victory_score += 1;
 		}
-		else if (pl[i].advisor == 2) {
-			pl[i].gold += 1;
+		else if ([i].advisor == 2) {
+			vec[i].gold += 1;
 		}
-		else if (pl[i].advisor == 3) {
-			pl[i].wood += 1;
+		else if (vec[i].advisor == 3) {
+			vec[i].wood += 1;
 		}
-		else if (pl[i].advisor == 4) {
+		else if (vec[i].advisor == 4) {
 			std::cout << "Золото или дерево? Введите 1 или 2 соответственно" << std::endl;
 			int num;
 			std::cin >> num;
 			if (num == 1) {
-				pl[i].gold += 1;
+				vec[i].gold += 1;
 			}
 			else if (num == 2) {
-				pl[i].wood += 1;
+				vec[i].wood += 1;
 			}
 		}
-		else if (pl[i].advisor == 5) {
-			pl[i].military_register += 1;
+		else if (vec[i].advisor == 5) {
+			vec[i].military_register += 1;
 		}
-		else if (pl[i].advisor == 6) {
-			pl[i].stone -= 1;
-			pl[i].wood += 1;
-			pl[i].gold += 1;
+		else if (vec[i].advisor == 6) {
+			vec[i].stone -= 1;
+			vec[i].wood += 1;
+			vec[i].gold += 1;
 		}
-		else if (pl[i].advisor == 7) {
-			pl[i].stone += 1;
-			pl[i].tokens += 2;
+		else if (vec[i].advisor == 7) {
+			vec[i].stone += 1;
+			vec[i].tokens += 2;
 		}
-		else if (pl[i].advisor == 8) {
-			pl[i].gold += 2;
+		else if (vec[i].advisor == 8) {
+			vec[i].gold += 2;
 		}
-		else if (pl[i].advisor == 9) {
-			pl[i].wood += 1;
+		else if (vec[i].advisor == 9) {
+			vec[i].wood += 1;
 			std::cout << "Золото или Камень? Введите 1 или 2 соответственно" << std::endl;
 			int num;
 			std::cin >> num;
 			if (num == 1) {
-				pl[i].gold += 1;
+				vec[i].gold += 1;
 			}
 			else if (num == 2) {
-				pl[i].stone += 1;
+				vec[i].stone += 1;
 			}
 		}
-		else if (pl[i].advisor == 10) {
-			pl[i].victory_score += 2;
+		else if (vec[i].advisor == 10) {
+			vec[i].victory_score += 2;
 		}
-		else if (pl[i].advisor == 11) {
-			pl[i].stone += 1;
+		else if (vec[i].advisor == 11) {
+			vec[i].stone += 1;
 			std::cout << "Золото или дерево? Введите 1 или 2 соответственно" << std::endl;
 			int num;
 			std::cin >> num;
 			if (num == 1) {
-				pl[i].gold += 1;
+				vec[i].gold += 1;
 			}
 			else if (num == 2) {
-				pl[i].wood += 1;
+				vec[i].wood += 1;
 			}
 		}
-		else if (pl[i].advisor == 12) {
-			pl[i].stone += 1;
-			pl[i].tokens += 2;
-			pl[i].gold += 1;
+		else if (vec[i].advisor == 12) {
+			vec[i].stone += 1;
+			vec[i].tokens += 2;
+			vec[i].gold += 1;
 		}
-		else if (pl[i].advisor == 13)
+		else if (vec[i].advisor == 13)
 		{
-			pl[i].stone += 3;
+			vec[i].stone += 3;
 		}
-		else if (pl[i].advisor == 14)
+		else if (vec[i].advisor == 14)
 		{
-			pl[i].victory_score -= 1;
-			pl[i].gold += 3;
+			vec[i].victory_score -= 1;
+			vec[i].gold += 3;
 		}
-		else if (pl[i].advisor == 15)
+		else if (vec[i].advisor == 15)
 		{
-			pl[i].wood += 1;
-			pl[i].stone += 1;
-			pl[i].gold += 1;
+			vec[i].wood += 1;
+			vec[i].stone += 1;
+			vec[i].gold += 1;
 		}
-		else if (pl[i].advisor == 16)
+		else if (vec[i].advisor == 16)
 		{
-			pl[i].gold += 3;
+			vec[i].gold += 3;
 		}
-		else if (pl[i].advisor == 17)
+		else if (vec[i].advisor == 17)
 		{
-			pl[i].stone += 2;
-			pl[i].victory_score += 3;
+			vec[i].stone += 2;
+			vec[i].victory_score += 3;
 		}
-		else if (pl[i].advisor == 18) {
-			pl[i].stone += 1;
-			pl[i].gold += 1;
-			pl[i].wood += 1;
-			pl[i].victory_score += 1;
+		else if (vec[i].advisor == 18) {
+			vec[i].stone += 1;
+			vec[i].gold += 1;
+			vec[i].wood += 1;
+			vec[i].victory_score += 1;
 		}
 
 	}
@@ -291,14 +291,60 @@ bool kingsburg::save_game(const char* filename)
 		fout << "Кол-во игроков: ";
 		fout << this->players << '\n';
 		for (int i = 0; i < this->players; i++) {
-			fout << "Игрок № " << i + 1 << ":" << '\n' << this->pl[i].name << '\t' << "Кол-во золота: " << this->pl[i].gold << '\t';
-			fout << "Кол-во дерева: " << this->pl[i].wood << '\t' << "Кол-во камня: " << this->pl[i].stone << '\n';
-			fout << '\n' << "Количество жетонов:" << this->pl[i].tokens << '\t' << "Значение воинского реестра: " << this->pl[i].military_register << '\t';
+			fout << "Игрок № " << i + 1 << ":" << '\n' << this->vec[i].name << '\t' << "Кол-во золота: " << this->vec[i].gold << '\t';
+			fout << "Кол-во дерева: " << this->vec[i].wood << '\t' << "Кол-во камня: " << this->vec[i].stone << '\n';
+			fout << '\n' << "Количество жетонов:" << this->vec[i].tokens << '\t' << "Значение воинского реестра: " << this->vec[i].military_register << '\t';
 		}
 		return true;
 	}
 	fout.close();
 	return false;
 }
+
+
+bool kingsburg::load_game(const char* filename)
+{
+	std::ifstream fin(filename);
+	if (fin.is_open()) {
+		fin >> this->player_number;
+		for (int i = 0; i < this->player_number; i++) {
+			Player new_game;
+			fin >> new_game.name >> new_game.gold >> new_game.wood >> new_game.stone >> new_game.tokens >> new_game.military_register;
+			pl.push_back(new_game);
+		}
+		return true;
+		fin.close();
+	}
+
+	return false;
+}
+
+void kingsburg::building(const char* building, Player pa)
+{
+	if (building == "Собор") {
+		pa.victory_score += (pa.gold + pa.wood + pa.stone) / 2;
+		pa.buildings = 1;
+	}
+	else if (building == "Ферма") {
+		pa.military_register--;
+		pa.buildings = 1;
+		if (pa.buildings != 0) {
+			pa.gold--;
+			pa.wood -= 3;
+			pa.stone--;
+		}
+	}
+	else if (building == "Крепость") {
+		pa.victory_score++;
+		pa.buildings = 1;
+	}
+	else if (building == "Башня") {
+		pa.buildings = true;
+	}
+	else if (building == "Посольство") {
+		pa.victory_score++;
+	}
+
+
 
 
