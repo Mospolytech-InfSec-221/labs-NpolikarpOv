@@ -1,0 +1,9 @@
+﻿  Lab_4.1.cpp
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_4.1\Lab_4.1.cpp(5,36): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_4.1\Lab_4.1.cpp(16,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_4.1\Lab_4.1.cpp(35,38): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_4.1\Lab_4.1.cpp(36,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_4.1\Lab_4.1.cpp(53,38): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_4.1\Lab_4.1.cpp(54,35): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_4.1\Lab_4.1.cpp(76,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Lab_4.1.vcxproj -> C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\x64\Debug\Lab_4.1.exe

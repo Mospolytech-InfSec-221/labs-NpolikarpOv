@@ -1,0 +1,7 @@
+﻿  Lab_7.cpp
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_7\Lab_7.cpp(84,102): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_7\Lab_7.cpp(34): warning C4715: compare<char>: значение возвращается не при всех путях выполнения
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_7\Lab_7.cpp(34): warning C4715: compare<int>: значение возвращается не при всех путях выполнения
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_7\Lab_7.cpp(34): warning C4715: compare<float>: значение возвращается не при всех путях выполнения
+C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\Lab_7\Lab_7.cpp(21): warning C4715: Struct1::operator[]: значение возвращается не при всех путях выполнения
+  Lab_7.vcxproj -> C:\Users\Nikita\Downloads\Polycarpov\Polycarpov\labs-NpolikarpOv\x64\Debug\Lab_7.exe
